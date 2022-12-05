@@ -1,1 +1,142 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 1.3rem;
+    color: #40514E;
+}
 
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 6rem;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.75rem;
+    font-weight: normal;
+}
+
+h3 { 
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+    font-weight: 1000;
+}
+
+.profile {
+    margin: auto;
+    width: 40%;
+    line-height: 2;
+}
+
+
+hr {
+    border: none;
+    border-top: 12px dotted #EAF6F6; 
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+
+.profile-img {
+    width: 30%;
+    background-color: #CDFCF6;
+    border-radius: 50%;
+    margin: 100px auto auto auto;
+}
+
+.design {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.coding {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-container {
+    position:relative;
+    background-color: #FAF7F0;
+    padding-top: 100px;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 80px auto;
+    text-align: left;
+    width: 50%;
+}
+
+
+
+.top-cloud {
+    top: 50px;
+    right: 30%;
+    position: absolute;
+}
+
+.bottom-cloud {
+    bottom: 300px;
+    left: 25%;
+    position: absolute;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 0 auto 100px auto;
+    line-height: 2;
+}
+
+.press-action {
+    margin-bottom: 80px;
+}
+
+.btn {
+    background-color: #11999E;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 2px double #11999E;
+    color: #11999E;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 5px 0;
+}
+
+.footer-link {
+    margin: 50px 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.copyright {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 1rem;
+}
